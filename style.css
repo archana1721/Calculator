@@ -1,0 +1,45 @@
+/*  for calculator using... */
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+html , body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.calculator-container {
+    width: 300px;
+    height:  300px;
+    margin: 50px auto; 
+    padding: 20px;
+    border: 2px solid black; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px brown;}
+
+.button{
+    padding: 8px;
+    width: 66px;
+    margin: 0 3px;
+    border: 2px solid #3498db;
+    border-radius: 9px; 
+    cursor: pointer;
+
+}
+/* in rows */
+.row{
+    margin: 8px 0;
+    width: 12vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/*  for in rows buttons */
+.row input{
+    width: 200px;
+    font-size: 22px;
+
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
